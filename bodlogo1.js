@@ -89,8 +89,7 @@
 // =-12=3-1=2-3=1-2=3-1=23=-12=3-=12-3=1-2=3-1=23-=1-23=-1=2-3=1-23=1-2=3-1=2-3=1-2=3-1=2-3
 
 const mySort = (array) => {
-  let len = array.length;
-  for (let i = 0; i < len; i++) {
+  for (let i = 0; i < array.length; i++) {
     let target = array[i];
     for (var j = i - 1; j >= 0 && array[j] > target; j--) {
       array[j + 1] = array[j];
@@ -102,12 +101,3 @@ const mySort = (array) => {
 
 mySort([12, 23, 53, 1, 14, 16, 90]);
 
-// var numArray = [140000, 104, 99];
-// for (var i = 0; i < numArray.length; i++) {
-//     var target = numArray[i];
-//     for (var j = i - 1; j >= 0 && (numArray[j] > target); j--) {
-//         numArray[j+1] = numArray[j];
-//     }
-//     numArray[j+1] = target
-// }
-// console.log(numArray);
