@@ -13,5 +13,14 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/munkhtushig15/bodlogoS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/munkhtushig15/bodlogoS/issues"
+  },
+  "homepage": "https://github.com/munkhtushig15/bodlogoS#readme"
 }
